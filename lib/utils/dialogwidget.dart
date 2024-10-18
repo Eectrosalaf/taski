@@ -1,9 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:taski/utils/bottonwidget.dart';
 
 class Dialogwidget extends StatelessWidget {
+  // ignore: prefer_typing_uninitialized_variables
   final controller;
   final VoidCallback onsaved;
 
@@ -18,6 +17,7 @@ class Dialogwidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
+        // ignore: sized_box_for_whitespace
         content: Container(
       height: 120,
       child: Column(
