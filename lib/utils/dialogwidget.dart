@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:taski/utils/bottonwidget.dart';
 
+// ignore: must_be_immutable
 class Dialogwidget extends StatelessWidget {
   // ignore: prefer_typing_uninitialized_variables
   final controller;
