@@ -29,11 +29,12 @@ class Taskie_tile extends StatelessWidget {
             leading: Checkbox(value: isdone, onChanged: onChanged),
             title: Text(
               taskname,
-              style: const TextStyle(color: Colors.white),
+              style:  TextStyle(color: Colors.white,decoration:isdone ? TextDecoration.lineThrough  : TextDecoration.none,),
             ),
           ),
         ),
       ),
-    );
+      );
+    
   }
 }
